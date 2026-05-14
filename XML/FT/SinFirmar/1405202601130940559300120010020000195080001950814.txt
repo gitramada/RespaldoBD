@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<factura id="comprobante" version="1.0.0">
+<infoTributaria> 
+<ambiente>2</ambiente> 
+<tipoEmision>1</tipoEmision>
+<razonSocial>MOREIRA MUNOZ WILLIANS GERARDO</razonSocial>
+<nombreComercial>LA RAMADA DEL SABOR</nombreComercial > 
+<ruc>1309405593001</ruc> 
+<claveAcceso>1405202601130940559300120010020000195080001950814</claveAcceso> 
+<codDoc>01</codDoc> 
+<estab>001</estab> 
+<ptoEmi>002</ptoEmi> 
+<secuencial>000019508</secuencial>
+<dirMatriz>CIUDADELA LA CALIFORNIA</dirMatriz> 
+</infoTributaria> 
+<infoFactura>
+<fechaEmision>14/05/2026</fechaEmision>
+<dirEstablecimiento>CIUDADELA LA CALIFORNIA</dirEstablecimiento>  
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador> 
+<razonSocialComprador>ALIADO CONTABLE MATUBERM CIA LTDA</razonSocialComprador> 
+<identificacionComprador>0190434249001</identificacionComprador> 
+<direccionComprador>Portoviejo</direccionComprador> 
+<totalSinImpuestos>6.50</totalSinImpuestos> 
+<totalDescuento>0.00</totalDescuento> 
+<totalConImpuestos>  
+<totalImpuesto>
+<codigo>2</codigo> 
+<codigoPorcentaje>4</codigoPorcentaje> 
+<baseImponible>0.00</baseImponible>
+<valor>0.00</valor> 
+</totalImpuesto> 
+<totalImpuesto>
+<codigo>2</codigo> 
+<codigoPorcentaje>0</codigoPorcentaje> 
+<baseImponible>6.50</baseImponible>
+<valor>0</valor> 
+</totalImpuesto>  
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>6.50</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>  
+<pago> 
+<formaPago>01</formaPago> 
+<total>6.50</total> 
+<plazo>30</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>  
+</pagos> 
+</infoFactura>
+<detalles> 
+<detalle>
+<codigoPrincipal>BEBIDA-JUGO-01</codigoPrincipal>
+<codigoAuxiliar>BEBIDA-JUGO-01</codigoAuxiliar>
+<descripcion>JUGO</descripcion> 
+<cantidad>1</cantidad> 
+<precioUnitario>0.75</precioUnitario>
+<descuento>0.00</descuento> 
+<precioTotalSinImpuesto>0.75</precioTotalSinImpuesto>
+<impuestos> 
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>0.75</baseImponible> 
+<valor>0.00</valor> 
+</impuesto> 
+</impuestos> 
+</detalle> 
+<detalle>
+<codigoPrincipal>POLLO-APANADO-01</codigoPrincipal>
+<codigoAuxiliar>POLLO-APANADO-01</codigoAuxiliar>
+<descripcion>POLLO APANADO</descripcion> 
+<cantidad>1</cantidad> 
+<precioUnitario>5.75</precioUnitario>
+<descuento>0.00</descuento> 
+<precioTotalSinImpuesto>5.75</precioTotalSinImpuesto>
+<impuestos> 
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>5.75</baseImponible> 
+<valor>0.00</valor> 
+</impuesto> 
+</impuestos> 
+</detalle> 
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Correo electronico">auditoria@aliadocontable.com</campoAdicional>  
+</infoAdicional>
+</factura>

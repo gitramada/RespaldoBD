@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<factura id="comprobante" version="1.0.0">
+<infoTributaria> 
+<ambiente>2</ambiente> 
+<tipoEmision>1</tipoEmision>
+<razonSocial>MOREIRA MUNOZ WILLIANS GERARDO</razonSocial>
+<nombreComercial>LA RAMADA DEL SABOR</nombreComercial > 
+<ruc>1309405593001</ruc> 
+<claveAcceso>1105202601130940559300120010020000194530001945312</claveAcceso> 
+<codDoc>01</codDoc> 
+<estab>001</estab> 
+<ptoEmi>002</ptoEmi> 
+<secuencial>000019453</secuencial>
+<dirMatriz>CIUDADELA LA CALIFORNIA</dirMatriz> 
+</infoTributaria> 
+<infoFactura>
+<fechaEmision>11/05/2026</fechaEmision>
+<dirEstablecimiento>CIUDADELA LA CALIFORNIA</dirEstablecimiento>  
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>05</tipoIdentificacionComprador> 
+<razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador> 
+<identificacionComprador>9999999999</identificacionComprador> 
+<direccionComprador>PORTOVIEJO</direccionComprador> 
+<totalSinImpuestos>7.95</totalSinImpuestos> 
+<totalDescuento>0.00</totalDescuento> 
+<totalConImpuestos>  
+<totalImpuesto>
+<codigo>2</codigo> 
+<codigoPorcentaje>4</codigoPorcentaje> 
+<baseImponible>0.45</baseImponible>
+<valor>0.07</valor> 
+</totalImpuesto> 
+<totalImpuesto>
+<codigo>2</codigo> 
+<codigoPorcentaje>0</codigoPorcentaje> 
+<baseImponible>7.50</baseImponible>
+<valor>0</valor> 
+</totalImpuesto>  
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>8.02</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>  
+<pago> 
+<formaPago>01</formaPago> 
+<total>8.02</total> 
+<plazo>30</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>  
+</pagos> 
+</infoFactura>
+<detalles> 
+<detalle>
+<codigoPrincipal>ALMUERZO-34</codigoPrincipal>
+<codigoAuxiliar>ALMUERZO-34</codigoAuxiliar>
+<descripcion>PORCION DE ENSALADA RUSA</descripcion> 
+<cantidad>1</cantidad> 
+<precioUnitario>1.25</precioUnitario>
+<descuento>0.00</descuento> 
+<precioTotalSinImpuesto>1.25</precioTotalSinImpuesto>
+<impuestos> 
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>1.25</baseImponible> 
+<valor>0.00</valor> 
+</impuesto> 
+</impuestos> 
+</detalle> 
+<detalle>
+<codigoPrincipal>DESECHABLE-01</codigoPrincipal>
+<codigoAuxiliar>DESECHABLE-01</codigoAuxiliar>
+<descripcion>DESECHABLE GRANDE</descripcion> 
+<cantidad>1</cantidad> 
+<precioUnitario>0.45</precioUnitario>
+<descuento>0.00</descuento> 
+<precioTotalSinImpuesto>0.45</precioTotalSinImpuesto>
+<impuestos> 
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15.00</tarifa>
+<baseImponible>0.45</baseImponible> 
+<valor>0.07</valor> 
+</impuesto> 
+</impuestos> 
+</detalle> 
+<detalle>
+<codigoPrincipal>POLLO-SECO-01</codigoPrincipal>
+<codigoAuxiliar>POLLO-SECO-01</codigoAuxiliar>
+<descripcion>SECO DE POLLO CRIOLLO</descripcion> 
+<cantidad>1</cantidad> 
+<precioUnitario>6.25</precioUnitario>
+<descuento>0.00</descuento> 
+<precioTotalSinImpuesto>6.25</precioTotalSinImpuesto>
+<impuestos> 
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>6.25</baseImponible> 
+<valor>0.00</valor> 
+</impuesto> 
+</impuestos> 
+</detalle> 
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Correo electronico">ramadafactura@gmail.com</campoAdicional>  
+</infoAdicional>
+</factura>
